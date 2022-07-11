@@ -66,7 +66,6 @@ a:hover{
     padding-bottom: 100px;
 }
 .scroll-down{
-    /* p / 18b */
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 700;
@@ -274,6 +273,6 @@ a{
 .photos_our_works{
 box-shadow: 3px 3px 50px 3px#CDAA7D;
 }
-.link_showAll, .main_page:hover{
+.link_showAll, .main_page:hover{ 
     text-decoration: none;
-}
+} /*you can see text highlighting when you direct cursor to the links*/
