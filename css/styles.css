@@ -46,7 +46,6 @@ a:hover{
 .menu li{
     margin-left: 65px;
 }
-
 .beauty-salon{
     text-align: center;
     color: #fff;
@@ -101,7 +100,6 @@ a:hover{
     margin-top: 95px ;
     justify-content: center;
     padding-left: 312px;  
-
 }
 a{
     text-decoration: none;
@@ -214,7 +212,6 @@ a{
     /* height: auto; */
 }
 .line {
-    
     width: 1296px;
     opacity: 50%;
     border: 1px solid #FFF;
@@ -280,5 +277,3 @@ box-shadow: 3px 3px 50px 3px#CDAA7D;
 .link_showAll, .main_page:hover{
     text-decoration: none;
 }
-
-
