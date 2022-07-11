@@ -1,0 +1,284 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Garamond';
+    font-size: 75px;
+}
+body, footer{
+    background: url(../img/Rectangle\ 39.png)no-repeat center top / cover;
+}
+ul,li{
+    display: block;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    background: url(../img/bgc.jpg) no-repeat center top / cover;
+}
+header a{
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    color:#CDAA7D ;
+}
+.main_page{
+    color: #CDAA7D;
+    border-bottom: 1px solid #CDAA7D;
+}
+.nav{
+    margin-left: 312px;
+}
+.menu {
+    display: flex;
+    margin-top: 0px;
+}
+.menu li a{
+    
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+.menu li{
+    margin-left: 65px;
+}
+
+.beauty-salon{
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 400px;
+}
+.insta{
+    margin-top: -45px;
+}
+.mouse{
+    display: flex;
+    margin-top: 500px;
+    margin-left: 925px;
+    padding-bottom: 100px;
+}
+.scroll-down{
+    /* p / 18b */
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.omega{
+    margin-left: 50px;
+}
+.description-company{
+    display: block;
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    text-align: center;
+}
+.about-company{
+    color: #fff;
+    margin-top: 60px;
+}
+.sign{
+    margin-top: 100px;
+}
+.service{
+    margin-top: 95px ;
+    justify-content: center;
+    padding-left: 312px;  
+
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #fff;
+}
+.part1 {
+    display: flex;
+    padding-top: 100px;
+    height: 380px;
+    position: relative;
+}
+.part2 {
+    display: flex;
+    margin-top: 80px;
+    height: 380px;
+    margin-bottom: 150px;
+    position: relative;
+}
+.hair_divs, .woman_div {
+    position: absolute;
+    display: flex;
+}
+.nails_divs, .esthetician_div {
+    position: absolute;
+    display: flex;
+    left: 440px;  
+}
+.flowers_divs, .cosmetics_div {
+    position: absolute;
+    display: flex;
+    left: 880px;
+}
+.photo {
+    width: 396px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+.logo {
+    margin-left: 312px;
+    margin-right: 312px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 119px;
+    padding-right: 98px;
+}
+.border {
+    position: absolute;
+    width: 396px;
+    height: 300px;
+    left: 20px;
+    top: -20px;
+    opacity: 0.5;
+    border: 1px solid #CDAA7D;
+}
+.our_works {
+    margin-top: 180px;
+    margin-left: 288px; 
+    margin-right: 288px;
+    margin-bottom: 100px;
+}
+.name_section {
+    margin: 0;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.links_our_works {
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.link_showAll {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #CDAA7D;
+    border-bottom: 1px solid #CDAA7D;
+}
+.link_our_works {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 60px;
+}
+.photos_our_works {
+    margin: 0;
+    border-spacing: 24px 24px;
+}
+/* Footer */
+.footer {
+    padding-left: 312px;
+    padding-right: 312px;
+    /* height: auto; */
+}
+.line {
+    
+    width: 1296px;
+    opacity: 50%;
+    border: 1px solid #FFF;
+}
+.footer_logo {
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 60px;
+}
+.contacts {
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.name_field_footer {
+    margin: 0;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.contacts_info_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.working_mode {
+    margin-left: 209px;
+    margin-top: 80px;
+}
+.footer_inst {
+    width: 170px;
+    height: 90px;
+    margin-top: 80px;
+    margin-left: 190px;
+    position: relative;
+}
+.footer_logo_inst {
+    position: absolute;
+    top: 54px;
+    right: 134px;
+}
+.copyright_footer {
+    display: block;
+    margin: 30px auto;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.photos_our_works{
+box-shadow: 3px 3px 50px 3px#CDAA7D;
+}
+.link_showAll, .main_page:hover{
+    text-decoration: none;
+}
+
+
