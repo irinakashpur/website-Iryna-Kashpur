@@ -244,6 +244,15 @@ a{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
+.phone_number{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
 .working_mode {
     margin-left: 209px;
     margin-top: 80px;
